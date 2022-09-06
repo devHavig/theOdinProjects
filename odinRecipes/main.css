@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: grey;
+    font-family: 'Silkscreen', cursive, Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#description {
+    padding-top: 10px;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h2, p {
+    padding-left: 40px;
+}
+
+h3 {
+    padding-top: 10px
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#dessert-recipes {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.recipe-list {
+    text-align: center;
+    list-style: none;
+}
+
+#links {
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
+.copyright {
+    width: 100%;
+    position: fixed; 
+    text-align: center;
+    font-size: .75rem;
+    bottom: 0;
+}
